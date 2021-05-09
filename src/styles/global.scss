@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 :root {
-  --blue: #273FAD;
-  --green: #3FAD27;
+  --blue: #8908EF;
+  --green: #04D361;
   --red: 	#ad273f;
-  --background: #EBEBEB;
+  --background: #E3E5E5;
   --shapes: #FFFFFF;
   --text-title: #3D3D4D;
   --text: #1C1C29;
@@ -16,18 +18,20 @@
 }
 
 body {
-  font: 16px "Poppins", Arial, sans-serif;
+  font: 2rem 'Press Start 2p', sans-serif;
   color: #121214;
 }
 
 input, textarea {
-  font-family: "Poppins";
+  font-family:'Press Start 2p', sans-serif;
+  font-size: 0.8rem;
 }
 
 .container {
   max-width: 1120px;
   margin: 0 auto;
   padding: 2.5rem 1rem;
+  box-shadow: #000 2.2px 2px;
 }
 
 button, .checkmark {
